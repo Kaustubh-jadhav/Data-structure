@@ -1,0 +1,61 @@
+git config --global user.name kaustubh = create user name
+git config --global user.email sonujadhav028@gmail.com = Enter email id
+to check username and email
+git config --global user.name
+git config --global user.name
+git init = initialized empty git repository
+la -lart = show hidden files
+git status = check status
+git add <filename.extantion> = add file in staging area
+git commit = save the file structure
+after commit command you will go in vim editior to type in editor use 'i' and commit as initial commit to escape use 'esc' ':''w''q' 
+touch about.c = make blank or emptygit e name as about.c
+git add -A = add all file to stagging area
+after editing file goes on modified section
+git commit -m "added to more html" = shortcute for commit
+git checkout <filename.extention> - recover edited file and match the at commit
+git checkout -f = all file matches at last commit--shortcut of git checkout
+git log = tell us all which you are commited show us our commits
+git log -p -1 = filter out commits and show in details
+git diff = compare working to staging area
+git diff --staged = comparing staging area to last commit.
+
+ git commit -a -m "skipped staging area and fixed "= commit modified file directly with            specific message
+ ls = list of commited files
+touch waste.html = make empty file name as waste
+git rm --cached waste.html=remove file from staging area
+git rm waste.html=directly delete the file
+ git status -s=show us short status
+touch .gitignore=make ignored file 
+open git ignore and type the name of file you want to ignore from git
+use '/' (in gitignore)for we found git ignore than only than ignore this file don't ignore it all times example /mylog.log
+ex (*.log) (in gitignore) ignore all file which extension is log
+ex ignore/  (use / when you want to ignore a folder) (in gitignore)
+
+braches 
+
+make brances
+
+ git branch feature1 = make branch name as feature1
+ git branch = to check branches
+ git checkout feature1 = go to the branch name as feature1
+ git merge feature1 = merge branch name as feature 1 and master
+ git checkout -b feature2 = make branch name as feature2 and go into it.
+git push -u origin feature1 = push branch to github
+git remote add origin https://github.com/Champion028K/Binary-search-tree.git = push to github
+git remote = check remote reposirotry
+git remote -v = check link of repository usefull for ssh
+git push -u origin master = push master branch to github
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
